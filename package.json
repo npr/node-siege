@@ -1,0 +1,38 @@
+{
+  "name": "node-siege",
+  "description": "Node wrapper for siege load testing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/npr/node-siege",
+  "author": {
+    "name": "johnymonster",
+    "email": "jnelson11@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npr/node-siege.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npr/node-siege/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/npr/node-siege/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": "bin/siege.js",
+  "main": "lib/siege",
+  "engines": {
+    "node": ">=0.8.11"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+      "commander":"*"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": []
+}
