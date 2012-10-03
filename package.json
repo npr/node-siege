@@ -1,6 +1,6 @@
 {
   "name": "node-siege",
-  "description": "Node wrapper for siege load testing",
+  "description": "Simple Node wrapper for siege load testing",
   "version": "0.0.1",
   "homepage": "https://github.com/npr/node-siege",
   "author": {
@@ -29,10 +29,14 @@
     "test": "grunt test"
   },
   "dependencies": {
-      "commander":"*"
+      "commander":"*",
+      "async":"*"
   },
   "devDependencies": {
-    "grunt": "~0.3.15"
+    "grunt": "~0.3.15",
+    "mocha":"*",
+    "grunt-simple-mocha":"*",
+    "should":"*"
   },
   "keywords": []
 }
