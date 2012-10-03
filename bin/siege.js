@@ -17,7 +17,7 @@ program
   .option('-f, --file [FILE]','FILE, select a specific URLS FILE.')
   .parse(process.argv);
 
-require('../')(program,function(err){
+require('../')(program,function(err, stderr){
     if(err) {
         console.error('Error: ' + err.message);
         process.exit(1);
