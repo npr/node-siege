@@ -31,7 +31,7 @@ sudo npm install grunt -g
 ```
 Then run
 ```
-grunt mochasimple
+grunt simplemocha
 ```
 
 ## Contributing
