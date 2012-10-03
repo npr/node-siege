@@ -11,10 +11,18 @@ siege('-t5s -c 10 -f urls.txt');
 ```
 
 ## Documentation
-_(Coming soon)_
+Bin version is not currently ready for use.
+
+siege function is only a passthrough, options are required.
+
+Assumes siege has already been installed.  Otherwise an error will be thrown.
 
 ## Examples
-_(Coming soon)_
+Check out the tests for examples
+
+test/test.js
+
+Documentation for [siege](http://www.joedog.org/siege-home/).
 
 ## Testing
 Install grunt
